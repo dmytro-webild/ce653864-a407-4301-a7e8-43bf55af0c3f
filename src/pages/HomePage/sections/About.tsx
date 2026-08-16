@@ -13,7 +13,7 @@ export default function AboutSection(): React.JSX.Element {
         quote="Luxury is not just a service — it is an art of living without constraint. Available 24 hours a day, 7 days a week, we curate seamless experiences and unlock the impossible for our global clientele."
         author="Maison ALPILIA"
         role="24/7 Luxury Concierge & Private Lifestyle Management"
-        imageSrc="https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp"
+        imageSrc="https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp?_wi=2"
         socialLinks={[
                   { icon: "Twitter", label: "Twitter", href: "#" },
                   { icon: "Linkedin", label: "LinkedIn", href: "#" },
