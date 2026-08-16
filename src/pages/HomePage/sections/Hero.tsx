@@ -27,20 +27,20 @@ export default function HeroSection(): React.JSX.Element {
         items={[
           {
             tag: "Estate Management",
-            title: "Olive Groves & Estate Care",
-            imageSrc: "https://images.unsplash.com/photo-1541480601022-2308c0f0a487?q=80&w=1200&auto=format&fit=crop",
-            description: "Dedicated villa care, estate management, and seasonal preparation amidst peaceful Alpilles olive groves."
+            title: "Olive Groves & Luxury Estates",
+            imageSrc: "https://picsum.photos/seed/366540894/1200/800",
+            description: "Dedicated villa care, luxury estate management, and seasonal preparation amidst peaceful Alpilles nature and olive groves."
           },
           {
             tag: "Vineyards & Wine",
             title: "Prestige Vineyards & Tastings",
-            imageSrc: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=1200&auto=format&fit=crop",
+            imageSrc: "https://picsum.photos/seed/865150099/1200/800",
             description: "Private wine tours, sommelier bookings, and direct cellar sourcing across prestige Alpilles vineyards."
           },
           {
             tag: "Alpilles Lifestyle",
             title: "Bespoke Alpilles Curation",
-            imageSrc: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1200&auto=format&fit=crop",
+            imageSrc: "https://picsum.photos/seed/348772147/1200/800",
             description: "24/7 lifestyle assistance, VIP transport, private chef booking, and curated outdoor moments in Provençal nature."
           }
         ]}
