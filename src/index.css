@@ -8,13 +8,13 @@
   /* @colorThemes/lightTheme/neutral */
   --background: #e3deea;
   --card: #ffffff;
-  --foreground: #27231f;
-  --primary-cta: #27231f;
+  --foreground: #1f2027;
+  --primary-cta: #1f2027;
   --primary-cta-text: #e3deea;
   --secondary-cta: #ffffff;
-  --secondary-cta-text: #27231f;
-  --accent: #c68a62;
-  --background-accent: #c68a62;
+  --secondary-cta-text: #1f2027;
+  --accent: #627dc6;
+  --background-accent: #627dc6;
 
   /* @layout/border-radius/rounded */
   --radius: 1rem;
