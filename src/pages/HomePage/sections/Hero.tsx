@@ -15,12 +15,36 @@ export default function HeroSection(): React.JSX.Element {
         titleHighlight="in the Alpilles."
         description="Maison ALPILIA provides 24/7 private conciergerie services, bespoke estate management, and tailored experiences across the Alpilles region."
         descriptionMuted="Operating 24/7 across Saint-Rémy-de-Provence, Les Baux-de-Provence, and Eygalières, Maison ALPILIA handles all your villa, lifestyle, and hospitality needs with absolute discretion."
-        primaryButton={{"avatarSrc":"https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp","avatarLabel":"24/7 Alpilles Desk","text":"Contact Concierge","href":"#contact"}}
+        primaryButton={{
+          avatarSrc: "https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp",
+          avatarLabel: "24/7 Alpilles Desk",
+          text: "Contact Concierge",
+          href: "#contact"
+        }}
         sectionTag="Alpilles Portfolio"
         sectionTitle="Conciergerie in Alpilles"
         sectionDescription="A portfolio of tailored villa management, local vineyard experiences, and exclusive lifestyle curations in the Alpilles."
-        items={[{"tag":"Estate Management","title":"Olive Groves & Estate Care","imageSrc":"https://images.unsplash.com/photo-1541480601022-2308c0f0a487?q=80&w=1200&auto=format&fit=crop","description":"Dedicated villa care, estate management, and seasonal preparation amidst peaceful Alpilles olive groves."},{"description":"Private wine tours, sommelier bookings, and direct cellar sourcing across prestige Alpilles vineyards.","imageSrc":"https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=1200&auto=format&fit=crop","tag":"Vineyards & Wine"},{"description":"24/7 lifestyle assistance, VIP transport, private chef booking, and curated outdoor moments in Provençal nature.","tag":"Alpilles Lifestyle","imageSrc":"https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1200&auto=format&fit=crop"}]}
-        secondaryButton={{"text":"Explore Services","href":"#services"}}
+        items={[
+          {
+            tag: "Estate Management",
+            title: "Olive Groves & Estate Care",
+            imageSrc: "https://images.unsplash.com/photo-1541480601022-2308c0f0a487?q=80&w=1200&auto=format&fit=crop",
+            description: "Dedicated villa care, estate management, and seasonal preparation amidst peaceful Alpilles olive groves."
+          },
+          {
+            tag: "Vineyards & Wine",
+            title: "Prestige Vineyards & Tastings",
+            imageSrc: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=1200&auto=format&fit=crop",
+            description: "Private wine tours, sommelier bookings, and direct cellar sourcing across prestige Alpilles vineyards."
+          },
+          {
+            tag: "Alpilles Lifestyle",
+            title: "Bespoke Alpilles Curation",
+            imageSrc: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1200&auto=format&fit=crop",
+            description: "24/7 lifestyle assistance, VIP transport, private chef booking, and curated outdoor moments in Provençal nature."
+          }
+        ]}
+        secondaryButton={{ text: "Explore Services", href: "#services" }}
       />
     </div>
   );
