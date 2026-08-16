@@ -17,7 +17,8 @@ import ServicesSection from './HomePage/sections/Services';
 import FaqSection from './HomePage/sections/Faq';
 import ContactSection from './HomePage/sections/Contact';
 
-export default function HomePage(): React.JSX.Element {
+
+import PricingSection from './HomePage/sections/Pricing';export default function HomePage(): React.JSX.Element {
   return (
 <StyleProvider siteBackground="none" heroBackground="none" buttonVariant="stagger">
         <LoaderReveal
@@ -43,6 +44,7 @@ export default function HomePage(): React.JSX.Element {
         <AboutSection />
 
         <ServicesSection />
+      <PricingSection />
 
         <FaqSection />
 
