@@ -13,7 +13,7 @@ export default function AboutSection(): React.JSX.Element {
         quote="In the heart of the Alpilles, surrounded by ancient olive groves and historic vineyards, Maison ALPILIA delivers bespoke 24/7 conciergerie services. From complete villa management to tailored local experiences, we cater to every detail with refined discretion."
         author="Maison ALPILIA"
         role="24/7 Alpilles Concierge — Private Estate & Lifestyle Curation"
-        imageSrc="https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp?_wi=2"
+        imageSrc="https://picsum.photos/seed/1680035011/1200/800"
         socialLinks={[
                   { icon: "Twitter", label: "Twitter", href: "#" },
                   { icon: "Linkedin", label: "LinkedIn", href: "#" },
