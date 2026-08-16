@@ -10,7 +10,7 @@ export default function Layout() {
     <StyleProvider buttonVariant="default" siteBackground="none" heroBackground="none">
       <SiteBackgroundSlot />
       <NavbarFloatingLogo
-                  logo="Joseph Alexander"
+                  logo="Maison ALPILIA"
                   logoImageSrc="https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp"
                   navItems={[
                     { name: "Work", href: "#work" },
@@ -24,8 +24,8 @@ export default function Layout() {
         <Outlet />
       </main>
       <FooterMinimal
-                brand="Alexander"
-                copyright="© 2026 Joseph Alexander. All rights reserved."
+                brand="Maison ALPILIA"
+                copyright="© 2026 Maison ALPILIA. All rights reserved."
                 socialLinks={[
                   { icon: "Twitter", href: "#" },
                   { icon: "Linkedin", href: "#" },
