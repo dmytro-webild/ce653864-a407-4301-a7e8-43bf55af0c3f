@@ -1,16 +1,13 @@
 import React from 'react';
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import TextAnimation from "@/components/ui/TextAnimation";
-"import React from 'react';"
-"import ScrollReveal from '@/components/ui/ScrollReveal';"
-"import TextAnimation from '@/components/ui/TextAnimation';"
 
 export default function PricingSection(): React.JSX.Element {
   return (
-    <div data-webild-section="pricing" id="pricing" className="relative w-full py-24 bg-background border-t border-border/10">
+    <div data-webild-section="pricing" id="pricing" className="relative w-full bg-background border-t border-border/10">
       <div className="w-content-width mx-auto px-4 md:px-0">
         <ScrollReveal variant="slide-up">
-          <div className="max-w-3xl mb-16">
+          <div className="max-w-content-width">
             <span className="inline-block px-3 py-1 text-xs font-medium uppercase tracking-wider rounded-full bg-card text-foreground border border-border/20 mb-4">
               Pricing
             </span>
@@ -30,7 +27,7 @@ export default function PricingSection(): React.JSX.Element {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Card 1: LA SOIRÉE */}
           <ScrollReveal variant="slide-up" delay={0.1}>
-            <div className="card h-full p-8 rounded-2xl flex flex-col justify-between bg-card border border-border/20">
+            <div className="card h-full p-8 rounded-theme flex flex-col justify-between bg-card border border-border/20">
               <div>
                 <div className="flex flex-col mb-6">
                   <h3 className="text-xl font-bold text-foreground tracking-wide uppercase">LA SOIRÉE</h3>
@@ -66,7 +63,7 @@ export default function PricingSection(): React.JSX.Element {
 
           {/* Card 2: LA SEMAINE */}
           <ScrollReveal variant="slide-up" delay={0.2}>
-            <div className="card h-full p-8 rounded-2xl flex flex-col justify-between bg-card border border-border/20 relative">
+            <div className="card h-full p-8 rounded-theme flex flex-col justify-between bg-card border border-border/20 relative">
               <div>
                 <div className="flex flex-col mb-6">
                   <h3 className="text-xl font-bold text-foreground tracking-wide uppercase">LA SEMAINE</h3>
@@ -108,7 +105,7 @@ export default function PricingSection(): React.JSX.Element {
 
           {/* Card 3: LA MAISON */}
           <ScrollReveal variant="slide-up" delay={0.3}>
-            <div className="card h-full p-8 rounded-2xl flex flex-col justify-between bg-card border border-border/20">
+            <div className="card h-full p-8 rounded-theme flex flex-col justify-between bg-card border border-border/20">
               <div>
                 <div className="flex flex-col mb-6">
                   <h3 className="text-xl font-bold text-foreground tracking-wide uppercase">LA MAISON</h3>
@@ -146,7 +143,7 @@ export default function PricingSection(): React.JSX.Element {
 
         {/* Closing Note */}
         <ScrollReveal variant="fade" delay={0.4}>
-          <div className="mt-16 p-6 rounded-xl bg-card/60 border border-border/10 text-center max-w-3xl mx-auto">
+          <div className="p-6 rounded-xl bg-card/60 border border-border/10 text-center max-w-content-width mx-auto">
             <p className="text-sm text-accent font-medium leading-relaxed">
               Prices are for our own service and coordination. Suppliers, chefs, drinks and materials are invoiced separately and directly, at cost.
             </p>
