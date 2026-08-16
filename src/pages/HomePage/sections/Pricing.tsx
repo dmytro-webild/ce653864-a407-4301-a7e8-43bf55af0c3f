@@ -1,6 +1,4 @@
 import React from 'react';
-import ScrollReveal from "@/components/ui/ScrollReveal";
-import TextAnimation from "@/components/ui/TextAnimation";
 
 export default function PricingSection(): React.JSX.Element {
   return (
