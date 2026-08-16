@@ -49,9 +49,16 @@ const NavbarFloatingLogo = ({ logo, logoImageSrc, navItems, ctaButton }: NavbarF
       <nav data-section="navbar" className="fixed z-1000 top-5 left-1/2 -translate-x-1/2 w-content-width">
         <div className="mx-auto w-full md:w-1/2 overflow-hidden rounded backdrop-blur-sm card">
           <div className="relative z-10 flex items-center justify-between gap-3 xl:gap-4 2xl:gap-5 p-3 xl:p-4 2xl:p-5">
-            <a href="/" className="flex items-center gap-2">
-              <img src={logoImageSrc} alt={logo} className="h-8 w-8 rounded-full object-cover" />
-              <span className="text-xl font-medium text-foreground">{logo}</span>
+            <a href="/" className="flex items-center gap-2.5 group">
+              <div className="relative flex items-center justify-center h-8 w-8 rounded-full bg-gradient-to-b from-[#b8111f] to-[#40050a] text-foreground shadow-md ring-1 ring-white/20 shrink-0 transition-transform duration-300 group-hover:scale-105">
+                <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-white" stroke="currentColor" strokeWidth="1.5">
+                  <path d="M12 3L2 19H22L12 3Z" strokeLinejoin="round" />
+                  <path d="M12 8L6 19" strokeOpacity="0.5" />
+                  <path d="M12 8L18 19" strokeOpacity="0.5" />
+                  <circle cx="12" cy="14" r="1.5" fill="currentColor" />
+                </svg>
+              </div>
+              <span className="text-lg font-serif font-semibold tracking-wide text-foreground">{logo}</span>
             </a>
 
             <div
