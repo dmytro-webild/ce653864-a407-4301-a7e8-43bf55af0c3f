@@ -11,16 +11,40 @@ export default function HeroSection(): React.JSX.Element {
         textAnimation="fade"
         heroAnimationDelay={4}
         tag="24/7 Concierge in Alpilles"
-        title="Bespoke Home Bar &"
-        titleHighlight="Private Chef Curation."
-        description="Exclusive private mixology and gourmet chef experiences tailored for luxury estates in the Alpilles region."
-        descriptionMuted="Operating 24/7 across the Alpilles, Maison ALPILIA crafts bespoke home bar concepts and intimate private chef dining for discerning residents and villa guests."
-        primaryButton={{"href":"#contact","text":"Reserve Private Chef or Bar","avatarLabel":"24/7 Alpilles Desk","avatarSrc":"https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp"}}
+        title="Exclusive Conciergerie"
+        titleHighlight="in the Alpilles."
+        description="Maison ALPILIA provides 24/7 private conciergerie services, bespoke estate management, and tailored experiences across the Alpilles region."
+        descriptionMuted="Operating 24/7 across Saint-Rémy-de-Provence, Les Baux-de-Provence, and Eygalières, Maison ALPILIA handles all your villa, lifestyle, and hospitality needs with absolute discretion."
+        primaryButton={{
+          avatarSrc: "https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp",
+          avatarLabel: "24/7 Alpilles Desk",
+          text: "Contact Concierge",
+          href: "#contact"
+        }}
         sectionTag="Alpilles Portfolio"
-        sectionTitle="Signature Home Bar & Culinary Events"
-        sectionDescription="A showcase of bespoke cocktail bars, Sommelier curations, and private chef dining crafted across prestige villas in the Alpilles."
-        items={[{"title":"Private Chef & Fine Dining","description":"Bespoke multi-course dinners and private chef placements for luxury Alpilles estates.","imageSrc":"https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1200&auto=format&fit=crop","tag":"Alpilles Culinary"},{"imageSrc":"https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=1200&auto=format&fit=crop","tag":"Mixology & Cellar","description":"Pop-up luxury cocktail bars, master mixologists, and rare spirit curations in your private villa.","title":"Tailored Home Bar Setup"},{"imageSrc":"https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?q=80&w=1200&auto=format&fit=crop","title":"Exclusive Alpilles Gatherings","tag":"Private Events","description":"24/7 event coordination, sunset aperitifs, and intimate garden receptions across Provençal estates."}]}
-        secondaryButton={{"href":"#services","text":"Explore All Services"}}
+        sectionTitle="Conciergerie in Alpilles"
+        sectionDescription="A portfolio of tailored villa management, local vineyard experiences, and exclusive lifestyle curations in the Alpilles."
+        items={[
+          {
+            tag: "Estate Management",
+            title: "Olive Groves & Estate Care",
+            imageSrc: "https://images.unsplash.com/photo-1541480601022-2308c0f0a487?q=80&w=1200&auto=format&fit=crop",
+            description: "Dedicated villa care, estate management, and seasonal preparation amidst peaceful Alpilles olive groves."
+          },
+          {
+            tag: "Vineyards & Wine",
+            title: "Prestige Vineyards & Tastings",
+            imageSrc: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=1200&auto=format&fit=crop",
+            description: "Private wine tours, sommelier bookings, and direct cellar sourcing across prestige Alpilles vineyards."
+          },
+          {
+            tag: "Alpilles Lifestyle",
+            title: "Bespoke Alpilles Curation",
+            imageSrc: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1200&auto=format&fit=crop",
+            description: "24/7 lifestyle assistance, VIP transport, private chef booking, and curated outdoor moments in Provençal nature."
+          }
+        ]}
+        secondaryButton={{ text: "Explore Services", href: "#services" }}
       />
     </div>
   );
