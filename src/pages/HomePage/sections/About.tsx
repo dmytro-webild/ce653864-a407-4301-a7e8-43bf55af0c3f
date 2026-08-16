@@ -9,10 +9,10 @@ export default function AboutSection(): React.JSX.Element {
     <div id="about" data-section="about">
               <AboutTestimonialParallax
         textAnimation="fade"
-        tag="About"
-        quote="I don't design to decorate — I design to solve. Sharp, intentional work that moves brands forward."
+        tag="About Maison ALPILIA"
+        quote="Luxury is not just a service — it is an art of living without constraint. Available 24 hours a day, 7 days a week, we curate seamless experiences and unlock the impossible for our global clientele."
         author="Maison ALPILIA"
-        role="Independent Designer"
+        role="24/7 Luxury Concierge & Private Lifestyle Management"
         imageSrc="https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp"
         socialLinks={[
                   { icon: "Twitter", label: "Twitter", href: "#" },

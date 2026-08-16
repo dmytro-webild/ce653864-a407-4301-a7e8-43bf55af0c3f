@@ -8,56 +8,19 @@ export default function FaqSection(): React.JSX.Element {
   return (
     <div id="faq" data-section="faq">
       <FaqTabbedAccordion
-                textAnimation="fade"
-                tag="FAQ"
-                title="Frequently Asked Questions"
-                description="Everything you need to know before we start working together."
-                categories={[
-                  {
-                    name: "General",
-                    items: [
-                      { question: "What type of clients do you work with?", answer: "I work with ambitious brands, startups, and established businesses that value premium creative work. Whether you're launching a new product or refreshing your brand identity, I bring the same level of craft and attention to detail." },
-                      { question: "What's your availability like?", answer: "I typically take on 2–3 projects at a time to ensure each client gets my full attention. Reach out to check my current availability — I'm happy to discuss timelines." },
-                      { question: "Do you work remotely or on-site?", answer: "Primarily remote, but I'm open to on-site work for shoots, workshops, or strategy sessions depending on the project scope and location." },
-                      { question: "Can I see more examples of your work?", answer: "Absolutely. The projects on this site are a curated selection. I'm happy to share additional case studies relevant to your industry during our initial call." },
-                    ],
-                  },
-                  {
-                    name: "Pricing",
-                    items: [
-                      { question: "How do you structure your pricing?", answer: "I offer project-based pricing tailored to scope and deliverables. Every engagement starts with a discovery call so I can provide an accurate, transparent quote — no surprises." },
-                      { question: "Do you require a deposit?", answer: "Yes, I require a 50% deposit to secure your spot and begin work. The remaining balance is due upon delivery of final assets." },
-                      { question: "Do you offer retainer packages?", answer: "I do. For clients with ongoing creative needs, monthly retainers offer priority access, discounted rates, and faster turnaround times." },
-                      { question: "What's included in a typical project quote?", answer: "Quotes include all creative direction, production, editing, and delivery of final files. Revisions are built in — I want you to be thrilled with the result." },
-                    ],
-                  },
-                  {
-                    name: "Process",
-                    items: [
-                      { question: "What does your process look like?", answer: "Discovery call → Creative brief → Concept development → Production → Review & refinement → Final delivery. I keep you in the loop at every stage with clear timelines and checkpoints." },
-                      { question: "How long does a typical project take?", answer: "Most projects wrap within 2–4 weeks depending on complexity. Larger campaigns or multi-deliverable projects may extend further, and I'll set expectations upfront." },
-                      { question: "How many revisions are included?", answer: "Two rounds of revisions are standard. In practice, my clients rarely need more than one — I invest heavily in understanding your vision before production begins." },
-                      { question: "What do you need from me to get started?", answer: "A brief overview of your brand, goals, and any existing assets or references. I'll guide you through the rest during our kickoff call." },
-                    ],
-                  },
-                  {
-                    name: "Results",
-                    items: [
-                      { question: "What kind of results can I expect?", answer: "My work is designed to drive measurable outcomes — higher engagement, increased conversions, and a brand presence that commands attention. I'll share relevant case studies during our call." },
-                      { question: "Do you track performance metrics?", answer: "While I focus on the creative, I design everything with performance in mind. I'm happy to collaborate with your marketing team to align on KPIs and measure impact." },
-                      { question: "Can you share client testimonials?", answer: "Yes — I have testimonials and references available. Many of my clients see 2–3x improvements in engagement after implementing new creative assets." },
-                      { question: "What makes your work different?", answer: "I combine strategic thinking with high-end execution. Every project is approached as a partnership — I'm invested in your success, not just delivering files." },
-                    ],
-                  },
-                ]}
-                cta={{
+        textAnimation="fade"
+        tag="FAQ"
+        title="Frequently Asked Questions"
+        description="Everything you need to know about Maison ALPILIA's 24/7 private concierge services."
+        categories={[{"items":[{"question":"What is Maison ALPILIA?","answer":"Maison ALPILIA is a luxury private conciergerie offering 24/7 lifestyle management, luxury travel, private aviation, estate management, and VIP access."},{"question":"Are you really available 24/7 and 7/7?","answer":"Yes. Our private concierge desk operates 24 hours a day, 7 days a week, 365 days a year to respond instantly to any requirement, anywhere in the world."},{"answer":"We serve Ultra High Net Worth Individuals, international family offices, corporate leaders, and discerning travelers requiring bespoke, high-discretion lifestyle management.","question":"Who are your services designed for?"},{"question":"How do you handle privacy and discretion?","answer":"Absolute discretion is our core principle. Every team member and partner operates under strict Non-Disclosure Agreements, ensuring total confidentiality."}],"name":"General"},{"name":"Membership","items":[{"answer":"We offer private annual memberships as well as bespoke project-based retainers for specific travel, event, or estate needs.","question":"How does membership work?"},{"question":"What benefits do members receive?","answer":"Members receive direct 24/7 communication lines, dedicated lifestyle directors, global priority access, and zero response delay."},{"question":"Can I request individual luxury services without a membership?","answer":"Yes, we accommodate high-value one-off requests such as yacht charters, private jet bookings, or exclusive event access upon review and verification."}]},{"name":"Access","items":[{"question":"How do I request private access or consultation?","answer":"Simply click 'Request Private Access' or contact our direct desk via email or telephone. Our team responds immediately."},{"question":"What is the turnaround time for urgent requests?","answer":"Our emergency lifestyle support desk handles last-minute bookings, emergency travel arrangements, and urgent requests instantly 24/7."}]}]}
+        cta={{
                   imageSrc: "https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp",
                   name: "More questions? Reach out anytime.",
                   role: "joseph@alexandercreative.com",
                   buttonText: "Book a call",
                   buttonHref: "#contact",
                 }}
-              />
+      />
     </div>
   );
 }

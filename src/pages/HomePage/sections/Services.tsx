@@ -8,23 +8,13 @@ export default function ServicesSection(): React.JSX.Element {
   return (
     <div id="services" data-section="services">
               <FeaturesBentoGridCta
-                textAnimation="fade"
-                tag="Services"
-                title="What I Bring to the Table"
-                description="End-to-end creative services designed to make your brand impossible to ignore — from the first frame to the final pixel."
-                features={[
-                  { title: "Photography", description: "Art-directed shoots that capture your brand's personality. Every image is color-graded and built to stop the scroll.", imageSrc: "https://storage.googleapis.com/webild/default/templates/creative-portfolio/photography.webp" },
-                  { title: "Product Design", description: "User-centered interfaces for apps and SaaS products. From wireframe to pixel-perfect UI — intuitive experiences that keep users coming back.", imageSrc: "https://storage.googleapis.com/webild/default/templates/creative-portfolio/product-design.webp" },
-                  { title: "Website", description: "Conversion-focused websites that look sharp and perform. Clean layouts, strategic CTAs, and responsive design that turns traffic into revenue.", imageSrc: "https://storage.googleapis.com/webild/default/templates/creative-portfolio/website.webp" },
-                  { title: "Videos", description: "Brand films and product videos engineered for engagement. Story-driven visuals that convert viewers into customers.", imageSrc: "https://storage.googleapis.com/webild/default/templates/creative-portfolio/videos.webp" },
-                ]}
-                ctaButton={{
-                  text: "Book a call with me",
-                  href: "#contact",
-                  avatarSrc: "https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp",
-                  avatarLabel: "You",
-                }}
-              />
+        textAnimation="fade"
+        tag="Concierge Services"
+        title="Curated Lifestyle Excellence"
+        description="Comprehensive round-the-clock private luxury management designed for discerning individuals and family offices worldwide."
+        features={[{"title":"Private Aviation & Travel","description":"Private jet charters, luxury yacht bookings, supercars, and seamless transfers, coordinated 24/7.","imageSrc":"https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?q=80&w=800&auto=format&fit=crop"},{"title":"Estate & Villa Management","description":"Turnkey villa and chalet administration, private staff placement, security, and maintenance across top destinations.","imageSrc":"https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=800&auto=format&fit=crop"},{"imageSrc":"https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=800&auto=format&fit=crop","description":"Sold-out event access, red carpet galas, private dining reservations, and exclusive private club memberships.","title":"VIP Access & Nightlife"},{"title":"Fine Art & Luxury Sourcing","imageSrc":"https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=800&auto=format&fit=crop","description":"High-end personal shopping, rare watch procurement, fine art sourcing, and bespoke gift curations."}]}
+        ctaButton={{"avatarSrc":"https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp","href":"#contact","text":"Connect with Concierge","avatarLabel":"24/7 Desk"}}
+      />
             </div>
   );
 }

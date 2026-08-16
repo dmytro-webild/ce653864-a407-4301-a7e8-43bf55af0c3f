@@ -8,44 +8,20 @@ export default function HeroSection(): React.JSX.Element {
   return (
     <div id="hero" data-section="hero">
       <HeroWorkScrollStack
-                textAnimation="fade"
-                heroAnimationDelay={4}
-                tag="1 spot left this month"
-                title="Design that"
-                titleHighlight="commands attention."
-                description="Design engineered for performance, not just aesthetics."
-                descriptionMuted="I craft every visual touchpoint your brand needs to capture attention and convert it into revenue."
-                primaryButton={{
-                  text: "Book a call with me",
-                  href: "#contact",
-                  avatarSrc: "https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp",
-                  avatarLabel: "You",
-                }}
-                sectionTag="Selected Work"
-                sectionTitle="Projects That Speak for Themselves"
-                sectionDescription="A curated selection of design work that drove real business results for ambitious brands."
-                items={[
-                  {
-                    title: "HydroFlow Product Launch",
-                    description: "Beverage brand shoot. Every frame engineered to sell.",
-                    imageSrc: "https://storage.googleapis.com/webild/default/templates/creative-portfolio/screen-1.webp",
-                    tag: "Product Shot",
-                  },
-                  {
-                    title: "Webild Athlete Campaign",
-                    description: "Sports tech shoot. Wearables captured in raw motion.",
-                    imageSrc: "https://storage.googleapis.com/webild/default/templates/creative-portfolio/screen-2.webp",
-                    tag: "Photography",
-                  },
-                  {
-                    title: "Maru Residence",
-                    description: "Architectural interior shoot. Minimal compositions.",
-                    imageSrc: "https://storage.googleapis.com/webild/default/templates/creative-portfolio/screen-3.webp",
-                    tag: "Interior Design",
-                  },
-                ]}
-                secondaryButton={{ text: "View all my projects", href: "#" }}
-              />
+        textAnimation="fade"
+        heroAnimationDelay={4}
+        tag="24/7 & 7/7 Luxury Concierge"
+        title="Bespoke Luxury,"
+        titleHighlight="Always Available."
+        description="Exclusive private concierge & lifestyle management for discerning clientele worldwide."
+        descriptionMuted="Maison ALPILIA delivers round-the-clock luxury services, bespoke travel, estate management, and VIP access 24/7, 7 days a week."
+        primaryButton={{"avatarLabel":"24/7 Direct","href":"#contact","avatarSrc":"https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp","text":"Request Private Access"}}
+        sectionTag="Living Portfolio"
+        sectionTitle="Besposke Curation & VIP Access"
+        sectionDescription="A showcase of bespoke lifestyle curation, VIP access, and luxury experiences delivered round-the-clock by Maison ALPILIA."
+        items={[{"description":"End-to-end estate preparation, private chef placement, and helicopter charter in Courchevel.","imageSrc":"https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200&auto=format&fit=crop","title":"Private Alpine Estate Curation","tag":"Estate & Chalet"},{"tag":"Yachting & VIP","title":"Yacht Charter & Riviera Access","imageSrc":"https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?q=80&w=1200&auto=format&fit=crop","description":"Seamless Mediterranean voyage with dedicated on-board concierge and private dining."},{"description":"Front-row access to exclusive Paris Fashion Week galas and private watchmaker previews.","title":"Exclusive Event & Gala Access","tag":"VIP Access","imageSrc":"https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1200&auto=format&fit=crop"}]}
+        secondaryButton={{"href":"#services","text":"Explore All Services"}}
+      />
     </div>
   );
 }
