@@ -8,14 +8,14 @@ export default function TestimonialSection(): React.JSX.Element {
   return (
     <div id="testimonial" data-section="testimonial">
       <TestimonialTrustCard
-                textAnimation="fade"
-                quote="Working with Maison ALPILIA felt like having a seasoned design partner who truly understood our vision for KYMA and brought it to life in ways we hadn't even imagined."
-                rating={5}
-                author="Thomas Weber — Co-founder of KYMA"
-                avatars={[
+        textAnimation="fade"
+        quote="Maison ALPILIA has transformed how we manage our properties and travel. Available at 3 AM or mid-flight, their execution and discretion are unparalleled."
+        rating={5}
+        author="Thomas Weber — Family Office Principal, Monaco"
+        avatars={[
                   { name: "Thomas Weber", imageSrc: "https://randomuser.me/api/portraits/men/75.jpg" },
                 ]}
-              />
+      />
     </div>
   );
 }
