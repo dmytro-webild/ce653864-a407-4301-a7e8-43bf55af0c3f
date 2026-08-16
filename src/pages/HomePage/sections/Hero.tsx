@@ -10,16 +10,16 @@ export default function HeroSection(): React.JSX.Element {
       <HeroWorkScrollStack
         textAnimation="fade"
         heroAnimationDelay={4}
-        tag="24/7 & 7/7 Luxury Concierge"
-        title="Bespoke Luxury,"
-        titleHighlight="Always Available."
-        description="Exclusive private concierge & lifestyle management for discerning clientele worldwide."
-        descriptionMuted="Maison ALPILIA delivers round-the-clock luxury services, bespoke travel, estate management, and VIP access 24/7, 7 days a week."
-        primaryButton={{"avatarLabel":"24/7 Direct","href":"#contact","avatarSrc":"https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp","text":"Request Private Access"}}
-        sectionTag="Living Portfolio"
-        sectionTitle="Besposke Curation & VIP Access"
-        sectionDescription="A showcase of bespoke lifestyle curation, VIP access, and luxury experiences delivered round-the-clock by Maison ALPILIA."
-        items={[{"description":"End-to-end estate preparation, private chef placement, and helicopter charter in Courchevel.","imageSrc":"https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200&auto=format&fit=crop","title":"Private Alpine Estate Curation","tag":"Estate & Chalet"},{"tag":"Yachting & VIP","title":"Yacht Charter & Riviera Access","imageSrc":"https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?q=80&w=1200&auto=format&fit=crop","description":"Seamless Mediterranean voyage with dedicated on-board concierge and private dining."},{"description":"Front-row access to exclusive Paris Fashion Week galas and private watchmaker previews.","title":"Exclusive Event & Gala Access","tag":"VIP Access","imageSrc":"https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1200&auto=format&fit=crop"}]}
+        tag="24/7 Concierge in Alpilles"
+        title="Bespoke Home Bar &"
+        titleHighlight="Private Chef Curation."
+        description="Exclusive private mixology and gourmet chef experiences tailored for luxury estates in the Alpilles region."
+        descriptionMuted="Operating 24/7 across the Alpilles, Maison ALPILIA crafts bespoke home bar concepts and intimate private chef dining for discerning residents and villa guests."
+        primaryButton={{"href":"#contact","text":"Reserve Private Chef or Bar","avatarLabel":"24/7 Alpilles Desk","avatarSrc":"https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp"}}
+        sectionTag="Alpilles Portfolio"
+        sectionTitle="Signature Home Bar & Culinary Events"
+        sectionDescription="A showcase of bespoke cocktail bars, Sommelier curations, and private chef dining crafted across prestige villas in the Alpilles."
+        items={[{"title":"Private Chef & Fine Dining","description":"Bespoke multi-course dinners and private chef placements for luxury Alpilles estates.","imageSrc":"https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1200&auto=format&fit=crop","tag":"Alpilles Culinary"},{"imageSrc":"https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=1200&auto=format&fit=crop","tag":"Mixology & Cellar","description":"Pop-up luxury cocktail bars, master mixologists, and rare spirit curations in your private villa.","title":"Tailored Home Bar Setup"},{"imageSrc":"https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?q=80&w=1200&auto=format&fit=crop","title":"Exclusive Alpilles Gatherings","tag":"Private Events","description":"24/7 event coordination, sunset aperitifs, and intimate garden receptions across Provençal estates."}]}
         secondaryButton={{"href":"#services","text":"Explore All Services"}}
       />
     </div>
