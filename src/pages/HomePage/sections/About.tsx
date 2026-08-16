@@ -10,9 +10,9 @@ export default function AboutSection(): React.JSX.Element {
               <AboutTestimonialParallax
         textAnimation="fade"
         tag="About Maison ALPILIA"
-        quote="In the heart of the Alpilles, we turn private villas into world-class culinary and cocktail destinations. Available 24 hours a day, 7 days a week, Maison ALPILIA delivers bespoke private chef events and custom home bar experiences without compromise."
+        quote="In the heart of the Alpilles, surrounded by ancient olive groves and historic vineyards, Maison ALPILIA delivers bespoke 24/7 conciergerie services. From complete villa management to tailored local experiences, we cater to every detail with refined discretion."
         author="Maison ALPILIA"
-        role="24/7 Alpilles Concierge — Private Chef & Home Bar Specialist"
+        role="24/7 Alpilles Concierge — Private Estate & Lifestyle Curation"
         imageSrc="https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp?_wi=2"
         socialLinks={[
                   { icon: "Twitter", label: "Twitter", href: "#" },
